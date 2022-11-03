@@ -13,3 +13,10 @@ const connection = mysql.createConnection({
     // MySQL Database
     database: "employee"
 });
+
+// exporting connection for MySQL
+connection.connect(function (err) {
+    if (err) throw err;
+});
+
+module.exports = conection;
