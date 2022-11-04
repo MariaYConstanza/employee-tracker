@@ -29,3 +29,13 @@ const db = mysql.createConnection(
     console.log(`You're now connected to company_db databases.`)
 );
 
+// View all employees in the comapny
+
+
+
+
+// Create new employees in the company
+
+// Update employee information
+
+// Delete employee from database id
