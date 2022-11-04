@@ -13,6 +13,7 @@ As a developer creating a tracking database that oragnizes employees in the comp
 - MySQL documention
 
 ## Screen Video
+N/A
 
 ## Licenses
 Copyright https://github.com/MariaYConstanza/employee-tracker All rights reserved
