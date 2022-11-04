@@ -15,4 +15,4 @@ As a developer creating a tracking database that oragnizes employees in the comp
 ## Screen Video
 
 ## Licenses
-Copyright All rights reserved
+Copyright https://github.com/MariaYConstanza/employee-tracker All rights reserved
