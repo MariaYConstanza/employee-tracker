@@ -30,7 +30,7 @@ const db = mysql.createConnection(
 );
 
 // View all employees in the comapny
-
+// app.get('/api/employee', )
 
 
 
