@@ -32,3 +32,9 @@ CREATE TABLE employee (
     REFERENCES manager(id),
     ON DELETE SET NULL
 );
+
+
+
+
+
+-- REMINDER: Find error between lines 1-10

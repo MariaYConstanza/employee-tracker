@@ -18,3 +18,11 @@ VALUES ("Qui Gon", "Jin", 011, 101),
        ("Anakin", "Skywalker", 013),
        ("Padme", "Amadala", 014),
        ("Sheev", "Palpatine" 010, 100);
+
+
+
+
+
+
+
+-- REMINDER: Find error on line 1
