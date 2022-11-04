@@ -28,3 +28,4 @@ const db = mysql.createConnection(
     },
     console.log(`You're now connected to company_db databases.`)
 );
+
