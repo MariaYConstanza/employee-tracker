@@ -30,7 +30,19 @@ const db = mysql.createConnection(
 );
 
 // View all employees in the comapny
-// app.get('/api/employee', )
+app.get('/api/employee', (req, res) => {
+    const sql = `SELECT employee.first_name AS employee first name`;
+    db.query(sql, (err, rows) => {
+        if(err) {
+            res.status(500).json({error: err.message});
+            return;
+        }
+        res.json({
+            message: 'Employee have been selected',
+            data: rows
+        });
+    });
+});
 
 
 
