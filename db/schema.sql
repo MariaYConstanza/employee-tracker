@@ -7,7 +7,6 @@ USE company_db;
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(30) NOT NULL,
-  PRIMARY KEY (id)
 );
 
 -- role table fill out section
@@ -17,7 +16,6 @@ CREATE TABLE role (
     salary DECIMAL,
     department_id INT NOT NULL,
     FOREIGN KEY (department_id),
-    PRIMARY KEY (id)
 );
 
 -- employee fill out section
